@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+ //  ES 5 --------------------------------  CONSTRUCTOR 
+
+        // if object use same property 
+        // and method only the value will change then we use constructor function
+
+        // By using constructor 
+        // in function user we will pass the property of the object 
+
+        //--> the first word of the constructor will be in captial letter.
+
+
+        function User(ufirst, ulast,ugen,uage,uemail,uedu){
+
+
+            this.firstName=ufirst;
+            this.lastName=ulast;
+            this.gendar=ugen;
+            this.age=uage;
+            this.email=uemail;
+            this.education=uedu;
+
+        }
+        // let user = new User("amit","singh","male",21,"amit@gmail.com","Btech");
+        // console.log(user);
+        let data = new User("vikas","tomar","male",21,"vikash@gmail.com","BCA");
+        console.log(data)
+
+
+        
+
+    </script>
+</body>
+</html>
